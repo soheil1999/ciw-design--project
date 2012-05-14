@@ -1,0 +1,53 @@
+div.container{
+    background-image : url('images/backguid.jpg');
+    height : 950px;
+    padding : auto;
+    background-repeat : no-repeat;
+    width : 950px;
+
+}
+div{
+    outline : 1px dashed red;
+}
+div.header{
+    padding:1px;
+ }
+div.right{ 
+    height : 100px;
+    width : 364px;
+    float : right;
+    margin-top : 20px;
+}
+div.left{
+    height : 100px;
+    float : left;
+    width : 374px;
+    margin-top : 20px;
+} 
+div.logo{
+	margin : 1px 375px;
+	min-height : 140px;
+} 
+
+div.textpanel{
+    min-height : 500px;
+}
+div.rightbar{
+    width:400px;
+    min-height:500px
+}
+div.footer div.image{
+	min-height:70px;
+	margin-top:25px;
+}
+div.footer div.fmenu{
+	min-height:50px;
+}
+div.footer div.copyright{
+	min-height:55px;
+}
+body{
+    padding-top : 20px;
+    padding-right : 20px;
+    padding-left : 20px;
+}

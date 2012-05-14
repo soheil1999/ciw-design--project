@@ -1,0 +1,96 @@
+div{
+   outline : 1px dashed red;
+   background-repeat:no-repeat;
+ }
+div.container{
+   width:980px;
+   height : 980px;
+   background-image : url('images/backguid.jpg');
+   background-repeat : no-repeat;
+} 
+body{
+   margin-left : 150px;
+   margin-right : 150px;
+
+}
+div.header{
+   padding : 1px;
+}
+div.left{
+   float : left;
+   width : 274px;
+   height : 58px;
+   margin-top: 68px;
+   background-image:url('images/logo.jpg');
+   margin-left: 19px;
+   margin-top:83px;
+}
+div.menu{
+   width : 684px;
+   height : 74px;
+   margin-top : 66px;
+   margin-left : 294px;
+}
+div.menu ul{
+   list-style-type:none;
+    margin-left:20px;
+   }
+div.menu li{
+    padding:12px 20px;
+    float:left;
+   
+ }
+div.menu a {
+    color:grey;
+    text-decoration:none;
+
+ }
+div.menu li:hover{
+    color:black;
+    font-weight:bold;
+    -webkit-transition-duration:1000ms;
+  }
+div.content{
+   padding : 1px;
+   margin-top : 10px;
+   min-height:430px;
+}
+div.textbar{
+   float : right;
+   width : 259px;
+   height : 410px;
+}
+div.slide{
+   width : 700px;
+   margin-right : 259px;
+   height : 368px;
+   margin-left:19px;
+   margin-top:6px;
+   background-image:url('images/slide2.jpg');
+}
+p{
+   text-align:center;
+}
+div.line{
+   border: 1px dotted red;
+   width:5px;
+   height:5px;
+}
+div.girl{
+   float:left;
+   margin-top:10px;
+}
+div.bunny{
+   float:left;
+   margin-top:10px;
+}   
+div.road{
+   float:left;
+   margin-top:10px;
+}
+div.nonsense{
+
+}
+div.subcontent{
+   padding:20px;
+}
